@@ -9,6 +9,10 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="*" />
-		<PackageReference Include="Microsoft.EntityFrameWorkCore.Tools" Version="*"/>
+		<PackageReference Include="Microsoft.EntityFrameWorkCore.Tools" Version="*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="../FieldValidatorAPI/FieldValidatorAPI.csproj"/>
 	</ItemGroup>
 </Project>
